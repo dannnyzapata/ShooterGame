@@ -24,12 +24,12 @@ public class Ganador : MonoBehaviour
     {
 
 
-        print(GameObject.FindGameObjectsWithTag("Civilian").Length);
+        //print(GameObject.FindGameObjectsWithTag("Civilian").Length);
 
-        if (GameObject.FindGameObjectsWithTag("Civilian").Length == 0)
-        {
-            Win.gameObject.SetActive(true);
+        //if (GameObject.FindGameObjectsWithTag("Civilian").Length == 0)
+        //{
+        //    Win.gameObject.SetActive(true);
             
-        }
+        //}
     }
 }

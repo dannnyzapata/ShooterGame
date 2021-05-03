@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: ca3d7ce593558f147804081101bc0131, type: 2}
 --- !u!1 &183006108
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,6 +391,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+--- !u!1 &501422221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 490770033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &501422227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501422221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1e4327102d0a84eb926ca57786c3ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  maxHealth: 100
 --- !u!1 &536495612
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Win: {fileID: 2128979172}
+  Congratu: {fileID: 0}
 --- !u!4 &1234440007
 Transform:
   m_ObjectHideFlags: 0
@@ -2268,6 +2289,8 @@ GameObject:
   - component: {fileID: 7537417665598128150}
   - component: {fileID: 197954461}
   - component: {fileID: 197954462}
+  - component: {fileID: 1998371697794286007}
+  - component: {fileID: 1998371697794286008}
   m_Layer: 0
   m_Name: Zombie Enemy
   m_TagString: Enemy
@@ -2275,6 +2298,45 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!195 &1998371697794286007
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998371697794286006}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 0.5
+  m_Acceleration: 15
+  avoidancePriority: 50
+  m_AngularSpeed: 999
+  m_StoppingDistance: 1.5
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1.6
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1998371697794286008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998371697794286006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1b25d068267b14a90ea34fea6b9785, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chasedistance: 2
+  turnSpeed: 5
+  damageAmount: 35
+  attacktime: 2
+  canattack: 1
 --- !u!1 &2057808353633077140
 GameObject:
   m_ObjectHideFlags: 0
@@ -3480,7 +3542,7 @@ Animator:
   m_GameObject: {fileID: 1998371697794286006}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 8f7380da49034cd488ddff94b1ac35d1, type: 3}
-  m_Controller: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1b331f9a9804f9644a4527dba4c04fd4, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
