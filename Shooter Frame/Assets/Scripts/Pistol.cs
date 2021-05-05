@@ -34,6 +34,9 @@ public class Pistol : MonoBehaviour
     [SerializeField]
     float weaponRange;
 
+    //Sangre
+    public GameObject BloodEffect;
+
     private void Start()
     {
         muzzleFlash.Stop();
@@ -76,6 +79,7 @@ public class Pistol : MonoBehaviour
 
                     EnemyHealth enemyHealthScript = hit.transform.GetComponent<EnemyHealth>();
                     enemyHealthScript.DeductHealth(damageEnemy);
+                    Instantiate(BloodEffect, hit.point, Quaternion.identity);              
                 }
 
                 else

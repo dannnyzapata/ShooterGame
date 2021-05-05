@@ -225,6 +225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealth: 100
+  isEnemyDead: 0
 --- !u!1 &407770238
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,6 +412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 0
   maxHealth: 100
+  IsDead: 0
 --- !u!1 &536495612
 GameObject:
   m_ObjectHideFlags: 0
@@ -1612,6 +1614,7 @@ MonoBehaviour:
   ammocount: {fileID: 1911420072}
   rateOfFire: 0.2
   weaponRange: 45
+  BloodEffect: {fileID: 100002, guid: 3b1513bcb86426b4795879be6a128ed7, type: 3}
 --- !u!82 &1993282049
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2332,11 +2335,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a1b25d068267b14a90ea34fea6b9785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canattack: 1
   chasedistance: 2
   turnSpeed: 5
   damageAmount: 35
   attacktime: 2
-  canattack: 1
 --- !u!1 &2057808353633077140
 GameObject:
   m_ObjectHideFlags: 0
