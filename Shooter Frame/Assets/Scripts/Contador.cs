@@ -24,7 +24,8 @@ public class Contador : MonoBehaviour
     void Update()
     {
         AmigosSav = CivScript.CivSavedCounter;
-        EnemigosMue = EnemyHealth.enemycounterdead;
+        EnemigosMue = (EnemyHealth.enemycounterdead);
+        
 
         contadorAmigos.text = AmigosSav.ToString();
         contadorEnemigos.text = EnemigosMue.ToString();

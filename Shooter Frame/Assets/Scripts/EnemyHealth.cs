@@ -33,7 +33,7 @@ public class EnemyHealth : MonoBehaviour
         isEnemyDead = true;
         enemyAI.EnemyDeathAnim();
         Destroy(gameObject, 10);
-        enemycounterdead++;
+        enemycounterdead = enemycounterdead+100;
     }
 
    
