@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.SceneManagement;
 
 public class PasuMenu : MonoBehaviour
 {
@@ -73,6 +74,11 @@ public class PasuMenu : MonoBehaviour
             AudioListener.pause = false;
         }
 
+    }
+
+    public void IrMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 
 }
