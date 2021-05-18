@@ -9,7 +9,7 @@ public class Pistol : MonoBehaviour
 
     //DamageEnemy
     [SerializeField]
-    float damageEnemy = 10f;
+     float damageEnemy = 10f;
 
     [SerializeField]
     Transform ShootPoint;
