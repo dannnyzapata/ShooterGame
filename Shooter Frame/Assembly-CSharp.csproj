@@ -122,6 +122,7 @@
     <Compile Include="Assets\AssetStore\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+    <Compile Include="Assets\Scripts\PowerUp.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
     <Compile Include="Assets\AssetStore\Yurowm\Demo\Scripts\CharacterViewer.cs" />
     <Compile Include="Assets\AssetStore\Shared\Scripts\AdjustTimeScale.cs" />
@@ -163,7 +164,23 @@
     <Compile Include="Assets\AssetStore\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\PowerUp.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_Window.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_TabGroup.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_ElementAnimation.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_Menu.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_ElementAudioPreset.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_TabWindow.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_SwitchToggle.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_ElementAnimationPreset.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_ElementAnimator.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_OptionList.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_SceneTransition.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_Bar.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_Tab.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_Element.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_ElementAudioClip.cs" />
+    <Compile Include="Assets\AssetStore\Quantum Tek\Quantum UI\Scripts\QUI_ElementAudio.cs" />
+    <Compile Include="Assets\Scripts\SettingsMenu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\AssetStore\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
@@ -181,6 +198,7 @@
      <None Include="Assets\AssetStore\SineVFX\TranslucentCrystals\_SRP\!!!_ReadBeforeImport_!!!.txt" />
      <None Include="Assets\AssetStore\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\AssetStore\JMO Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
+     <None Include="Assets\AssetStore\Quantum Tek\Quantum UI\Fonts\Montserrat\OFL.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\AssetStore\EffectExamples\Misc Effects\Prefabs\Readme_Dissolve_Respawn_.txt" />
      <None Include="Assets\AssetStore\JMO Assets\WarFX\Shaders\WFX_S Add Scroll.shader" />
