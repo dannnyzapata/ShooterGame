@@ -631,6 +631,30 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'Puntos:'
       objectReference: {fileID: 0}
+    - target: {fileID: 2128979171, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 683.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128979171, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 267.9982
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128979171, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128979171, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.9711
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128979171, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -11.7846
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128979172, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Text
+      value: "CIVILES SALVADOS\nPRESIONA CUALQUIER TECLA PARA \nIR AL SIGUIENTE NIVEL"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
 --- !u!1 &490770034 stripped
@@ -1088,7 +1112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4405b61c90e6baa499ad43ce2d2d7c4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PickupSoundEffect: {fileID: 8300000, guid: b8b461dd9c89fa646955dfa3d28ae40d, type: 3}
   doublePower: 2
   pickupEffect: {fileID: 1329845292236604, guid: 9bba9cf244c53c5439505dfc96fdd11c,
     type: 3}
@@ -1506,6 +1529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Win: {fileID: 2128979172}
   Congratu: {fileID: 0}
+  ThePlayer: {fileID: 490770034}
+  ShootPoint: {fileID: 758504311}
 --- !u!4 &1234440007
 Transform:
   m_ObjectHideFlags: 0

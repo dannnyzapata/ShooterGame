@@ -2,14 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.SceneManagement;
+
 public class Ganador : MonoBehaviour
 {
 
     public Text Win;
     AudioSource Winning;
     public AudioClip Congratu;
+    public GameObject ThePlayer;
+    public GameObject ShootPoint;
 
-    //List<GameObject> CivilesLista = new List<GameObject>();
+    List<GameObject> CivilesLista = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
@@ -24,12 +29,27 @@ public class Ganador : MonoBehaviour
     {
 
 
-        //print(GameObject.FindGameObjectsWithTag("Civilian").Length);
+        
 
-        //if (GameObject.FindGameObjectsWithTag("Civilian").Length == 0)
-        //{
-        //    Win.gameObject.SetActive(true);
+        if (GameObject.FindGameObjectsWithTag("Civilian").Length == 0)
+        {
+
+            Time.timeScale = 0f;
+            //Win.gameObject.SetActive(true);
+            ShootPoint.GetComponent<Pistol>().enabled = false;
+            ThePlayer.GetComponent<FirstPersonController>().enabled = false;
+
+            if (Input.anyKey)
+            {
+                Time.timeScale = 1f;
+                SceneManager.LoadScene("Nivel2");
+            }
             
-        //}
+
+
+        }
+
+        
     }
+   
 }

@@ -408,6 +408,7 @@
 "Assets/Scripts/EnemyAI.cs"
 "Assets/Scripts/EnemyHealth.cs"
 "Assets/Scripts/Ganador.cs"
+"Assets/Scripts/GanadorReal.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PasuMenu.cs"
 "Assets/Scripts/Pistol.cs"
